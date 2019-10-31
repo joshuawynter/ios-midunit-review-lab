@@ -60,23 +60,48 @@ Input: `[1,5,2,4,1,4]`
 
 Output: `5`
 
+```
+Answer:
+var arrayOfNums = [1,5,2,4,1,4]
+print(arrayOfNums.max()!)
+```
+
 2. **Given an array of type [Int], return the smallest element**
 
 Input: `[1,5,2,4,1,4]`
 
 Output: `1`
 
+```
+var arrayOfNums = [1,5,2,4,1,4]
+print(arrayOfNums.min()!)
+
+```
 3. **Given an array of type [Int], return its sum**
 
 Input: `[1,5,2,4,1,4]`
 
 Output: `17`
 
+```
+Answer:
+let multiples = [1,5,2,4,1,4]
+let sum = multiples.reduce(0, +)
+print(sum)
+```
+
 4. **Given an array of type [Double], return its average**
 
 Input: `[3,4.5,7.5,2,1]`
 
 Output: `3.6`
+
+```
+let multiples = [3,4.5,7.5,2,1]
+let sum = multiples.reduce(0, +)
+print(sum/5)
+
+```
 
 5. **Given an array of type [Double] and a Double, return the sum of all numbers in the array greater than a given number**
 
@@ -90,6 +115,15 @@ Output: `12`
 Input: `[3,4.5,7.5,2,1]`
 
 Output: `202.5`
+
+```
+Answer:
+let array = [3,4.5,7.5,2,1]
+let product = array.reduce(1, *)
+print(product)
+
+
+```
 
 7. **Given an array of type [Int], return the second smallest value in the array**
 
