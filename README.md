@@ -9,6 +9,13 @@ Input: `Hello, there`
 
 Output: `HELLO, THERE`
 
+```
+Answer:
+var greeting = "Hello, there"
+var upper = greeting.uppercased()
+print(upper)
+```
+
 2. **Given a String, return a String alternating between uppercase and lowercase letters**
 
 
@@ -16,6 +23,20 @@ Input: `Hello, there`
 
 Output: `HeLlO, tHeRe`
 
+```
+Answer:
+var str = "Hello, there"
+var result = [String]()
+for (index,element) in str.enumerated() {
+    var val:String =  String(element).lowercased()
+    if index % 2 == 0 {
+        val = String(element).uppercased()
+    }
+    result.append(val)
+}
+
+print(result.joined())
+```
 
 3. **Given a String, return a String with all occurrences of a given letter removed**
 
@@ -23,6 +44,12 @@ Input: `Hello, there`
 
 Output: `Hllo, thr`
 
+```
+Answer:
+let greeting = "Hello, There"
+let lessLetter = greeting.replacingOccurrences(of: "e", with: "")
+print(lessLetter)
+```
 
 ## Arrays
 
